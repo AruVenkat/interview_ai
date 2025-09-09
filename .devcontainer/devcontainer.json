@@ -1,0 +1,13 @@
+{
+  "name": "Interview Coding Environment",
+  "image": "mcr.microsoft.com/devcontainers/python:3.10",
+  "postCreateCommand": "pip install sentence-transformers faiss-cpu fastapi uvicorn",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter"
+      ]
+    }
+  }
+}
